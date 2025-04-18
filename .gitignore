@@ -1,0 +1,48 @@
+# === Node.js ===
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# === Environment variables ===
+.env
+.env.*.local
+
+# === Build output ===
+dist/
+build/
+out/
+
+# === IDEs and editors ===
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# === OS-specific ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+logs/
+*.log
+
+# === Coverage reports ===
+coverage/
+.nyc_output/
+
+# === Test files ===
+jest-html-reporters-*
+
+# === Misc ===
+*.local
+*.tgz
+*.zip
+.cache/
+.parcel-cache/
+.next/
+.vercel/
+.eslintcache
